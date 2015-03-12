@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/studyLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/math_background"
+    >
+    
+    <ImageButton
+        android:id="@+id/math_back_button"
+        android:layout_width="33dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/math_back_icon" 
+        android:background="#0000"/>
+    
+    <ImageView
+        android:id="@+id/math_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:background="#0000"/>
+    
+    <LinearLayout
+        android:id="@+id/studyLinearLayoutShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/studyLinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+            android:id="@+id/math_icon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/math_icon_1" 
+            android:scaleType="fitXY"/>
+        
+        <ImageButton
+            android:id="@+id/math_icon_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_2" />
+        
+        <ImageButton
+            android:id="@+id/math_icon_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_3" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/studyLinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+            android:id="@+id/math_icon_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_4" />
+        
+        <ImageButton
+            android:id="@+id/math_icon_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_5" />
+        
+        <ImageButton
+            android:id="@+id/math_icon_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_6" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/studyLinearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+            android:id="@+id/math_icon_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_7" />
+        
+        <ImageButton
+            android:id="@+id/math_icon_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_8" />
+        
+        <ImageButton
+            android:id="@+id/math_icon_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_9" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/studyLinearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="35dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+            android:id="@+id/math_icon_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_0" />
+        
+        <ImageButton
+            android:id="@+id/math_icon_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_delete" />
+        
+        <ImageButton
+            android:id="@+id/math_icon_equal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@drawable/math_icon_equal" />
+        
+    </LinearLayout>
+
+</LinearLayout>

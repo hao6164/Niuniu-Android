@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/main_background">
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/mainToPoemList"
+            android:layout_width="96dp"
+            android:layout_height="74dp"
+            android:layout_marginRight="180dp"
+            android:background="@drawable/main_topoem"
+            
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/mainToStoryList"
+            android:layout_width="112dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/main_tostory"
+            android:scaleType="fitXY" />
+            
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+            android:id="@+id/mainToMusicList"
+            android:layout_width="84dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="180dp"
+            android:background="@drawable/main_tomusic"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/mainToStudyList"
+            android:layout_width="116dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/main_tomath"
+            android:scaleType="fitXY" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

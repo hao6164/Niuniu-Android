@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="@drawable/story_background">
+
+        <ImageButton
+            android:id="@+id/storyItemToList"
+           android:layout_width="33dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/story_back_button"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/storyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:gravity="center" 
+            android:textColor="#CD6600"/>
+
+   	    <TextView
+        	android:id="@+id/storyItem"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_marginTop="10dp"
+        	android:layout_marginLeft="30dp"
+        	android:layout_marginRight="30dp"
+        	android:layout_marginBottom="40dp"
+        	android:textSize="20sp"
+        	android:textColor="#CD6600"
+        	
+        	/>        
+    </LinearLayout>
+    
+	<ProgressBar
+        android:id="@+id/storyItemBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+	
+</FrameLayout>

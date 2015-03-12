@@ -1,0 +1,13 @@
+mainURL:http://1.yidongyingyongapp.sinaapp.com/music.php
+
+访问
+返回JSON数组 
+
+每个数组包含了若干个JSON对象
+
+JSON对象的K-V:
+"name","歌名"
+"content","歌曲地址"
+
+再用mainURL+歌曲地址，组合成新的URL
+用这个URL就能访问到对应歌曲

@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/poem_background">
+    
+    
+    <ImageButton
+        android:id="@+id/poemListToMain"
+        android:layout_width="33dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/poem_back_icon"
+        />
+
+    <GridView
+        android:id="@+id/poemList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="80dp"
+        android:numColumns="3" >
+    </GridView>
+
+	</LinearLayout>
+    
+    <ProgressBar
+        android:id="@+id/poemListBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    
+</FrameLayout>
